@@ -1,0 +1,32 @@
+* {
+  font-family: Kanit !important;
+}
+@font-face {
+  font-family: Kanit;
+  src: url(../Assets/Font/Kanit-Regular.ttf);
+}
+
+/* toggle */
+
+.logoSm {
+  height: 50px;
+  margin: 15px;
+  animation-duration: 1s;
+  animation-name: slidein;
+  transition-duration: 0.25s;
+}
+
+.logoBig {
+  height: 170px;
+  margin: 15px;
+  animation-duration: 1s;
+  animation-name: slideout;
+  transition-duration: 0.25s;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
