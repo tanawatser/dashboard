@@ -1,0 +1,9 @@
+.background-login{
+    background-image: url("../Assets/Image/BG_Login.jpg");
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.mdb-card-login {
+    background-color: rgba(255, 255, 255, 0.801) !important;
+}
